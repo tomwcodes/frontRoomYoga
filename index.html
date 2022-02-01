@@ -4,13 +4,10 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>Front Room Yoga</title>
-    <!-- 
-Avalon Template 
-https://templatemo.com/tm-513-avalon
--->
-    <meta name="description" content="" />
+  
+    <meta name="description" content="Yoga in Your Own Home" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png" /> -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet"/>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/bootstrap-theme.min.css" />
     <link rel="stylesheet" href="css/fontAwesome.css" />
@@ -19,12 +16,6 @@ https://templatemo.com/tm-513-avalon
     <link rel="stylesheet" href="css/datepicker.css" />
     <link rel="stylesheet" href="css/style.css" />
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800"
-      rel="stylesheet"
-    />
-
-    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
   </head>
 
   <body>
@@ -38,7 +29,7 @@ https://templatemo.com/tm-513-avalon
                 <div class="line-dec"></div>
                 <h1>Balance, Body, <br />Mind</h1>
                 <div class="white-border-button">
-                  <a href="#contact" class="scroll-link" data-id="events-section">Class List</a>
+                  <a href="#classes" class="scroll-link" data-id="events-section">Class List</a>
                 </div>
               </div>
             </div>
@@ -57,25 +48,11 @@ https://templatemo.com/tm-513-avalon
               <p>“ SAMPLE TEXT HERE ”</p> -->
               <ul class="social-icons">
                 <li>
-                  <a href="https://www.facebook.com/FrontRoomYogaClasses"
-                    ><i class="fa fa-facebook"></i
-                  ></a>
+                  <a href="https://www.facebook.com/FrontRoomYogaClasses" target="_blank"><i class="fa fa-facebook"></i></a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/frontroomyogauk/"
-                    ><i class="fa fa-instagram"></i
-                  ></a>
-                  <!-- <li>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                  </li>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-rss"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-dribbble"></i></a>
-                </li> -->
-                </li>
+                  <a href="https://www.instagram.com/frontroomyogauk/" target="blank"><i class="fa fa-instagram"></i></a>
+            </li>
               </ul>
             </div>
           </div>
@@ -491,8 +468,8 @@ https://templatemo.com/tm-513-avalon
           </div>
           <div class="col-md-4">
             <div class="contact-right-content">
-                <!-- <div class="icon"><img src="img/map-marker-icon.png" alt=""></div>
-                <h4>You can find us on maps</h4> -->
+                <div class="icon"><img src="img/map-marker-icon.png" alt=""></div>
+                <h4>You can find us on maps</h4>
             </div>
         </div>
       </div>
@@ -503,18 +480,9 @@ https://templatemo.com/tm-513-avalon
         <div class="row">
           <div class="col-md-12">
             <p>
-              &copy; 2022 Front Room Yoga. Created by <a href="mailto: tomwcodes@gmail.com" target="_blank">tomwcodes@gmail.com</a>
+              &copy; 2022 Front Room Yoga. Site by <a href="mailto: tomwcodes@gmail.com" target="_blank">tomwcodes@gmail.com</a>
               <br />
-              <!-- <a
-                rel="nofollow"
-                href="https://templatemo.com/tm-513-avalon"
-                target="_parent"
-                >Avalon</a
-              >
-              by
-              <a rel="nofollow" href="https://www.html5max.com" target="_parent"
-                >HTML5 Max</a
-              > -->
+           
             </p>
           </div>
         </div>
@@ -535,41 +503,6 @@ https://templatemo.com/tm-513-avalon
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
 
-    <script type="text/javascript">
-      $(document).ready(function () {
-        // navigation click actions
-        $(".scroll-link").on("click", function (event) {
-          event.preventDefault();
-          var sectionID = $(this).attr("data-id");
-          scrollToID("#" + sectionID, 750);
-        });
-        // scroll to top action
-        $(".scroll-top").on("click", function (event) {
-          event.preventDefault();
-          $("html, body").animate({ scrollTop: 0 }, "slow");
-        });
-        // mobile nav toggle
-        $("#nav-toggle").on("click", function (event) {
-          event.preventDefault();
-          $("#main-nav").toggleClass("open");
-        });
-      });
-      // scroll function
-      function scrollToID(id, speed) {
-        var offSet = 0;
-        var targetOffset = $(id).offset().top - offSet;
-        var mainNav = $("#main-nav");
-        $("html,body").animate({ scrollTop: targetOffset }, speed);
-        if (mainNav.hasClass("open")) {
-          mainNav.css("height", "1px").removeClass("in").addClass("collapse");
-          mainNav.removeClass("open");
-        }
-      }
-      if (typeof console === "undefined") {
-        console = {
-          log: function () {},
-        };
-      }
-    </script>
+    
   </body>
 </html>
