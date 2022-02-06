@@ -329,6 +329,7 @@ p {
 
 .event-list {
   background-color: #fff;
+  overflow: none;
 }
 
 .event-list ul {
@@ -1102,4 +1103,6 @@ footer p em {
   .event-list h4 {
     width: auto;
   }
+
 }
+
