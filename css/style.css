@@ -31,7 +31,7 @@ p {
 .white-border-button a {
   padding: 14px 20px;
   background-color: transparent;
-  border: 2px solid rgb(244,188,81);
+  border: 2px solid white;
   border-radius: 30px;
   color: rgb(244,188,81);
   font-size: 18px;
