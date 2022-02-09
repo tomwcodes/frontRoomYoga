@@ -202,7 +202,7 @@ p {
   padding-top: 175px;
   padding-bottom: 175px;
   text-align: center;
-  background-image: url(/img/best-offer-bg.png);
+  background: rgb(180,81,95);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -215,7 +215,6 @@ p {
   height: 140px;
   line-height: 140px;
   background-color: transparent;
-  border: 1px solid #fff;
   border-radius: 50%;
 }
 
