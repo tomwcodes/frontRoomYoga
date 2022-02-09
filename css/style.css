@@ -279,7 +279,7 @@ p {
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
-  background-image: url(../img/events-bg.png);
+  background: rgb(55,46,38);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
